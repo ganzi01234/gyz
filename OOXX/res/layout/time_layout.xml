@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wheel_layout_bg"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <com.kaixin.android.view.WheelView
+            android:id="@+id/year"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content" />
+
+        <com.kaixin.android.view.WheelView
+            android:id="@+id/month"
+            android:layout_width="55dip"
+            android:layout_height="wrap_content" />
+
+        <com.kaixin.android.view.WheelView
+            android:id="@+id/day"
+            android:layout_width="55dip"
+            android:layout_height="wrap_content" />
+
+        <!-- <com.sharegroup.astonmartin.view.WheelView
+            android:id="@+id/hour"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content" />
+
+        <com.sharegroup.astonmartin.view.WheelView
+            android:id="@+id/mins"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content" /> -->
+    </LinearLayout>
+
+</RelativeLayout>

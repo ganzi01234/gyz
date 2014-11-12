@@ -1,0 +1,19 @@
+int anim bottomitem_in 0x7f020000
+int anim topitem_in 0x7f020001
+int[] styleable ListView { 0x010100b2, 0x01010129, 0x0101012a, 0x0101022e, 0x0101022f, 0x010102c2, 0x010102c3 }
+int styleable ListView_android_divider 1
+int styleable ListView_android_dividerHeight 2
+int styleable ListView_android_entries 0
+int styleable ListView_android_footerDividersEnabled 4
+int styleable ListView_android_headerDividersEnabled 3
+int styleable ListView_android_overScrollFooter 6
+int styleable ListView_android_overScrollHeader 5
+int[] styleable ZrcAbsListView { 0x010100fb, 0x010100fc, 0x010100fd, 0x010100fe, 0x01010100, 0x01010101, 0x0101012b, 0x01010231 }
+int styleable ZrcAbsListView_android_cacheColorHint 5
+int styleable ZrcAbsListView_android_choiceMode 6
+int styleable ZrcAbsListView_android_drawSelectorOnTop 1
+int styleable ZrcAbsListView_android_listSelector 0
+int styleable ZrcAbsListView_android_scrollingCache 3
+int styleable ZrcAbsListView_android_smoothScrollbar 7
+int styleable ZrcAbsListView_android_stackFromBottom 2
+int styleable ZrcAbsListView_android_transcriptMode 4

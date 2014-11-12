@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/ugc_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/ugc_voice"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="65dip"
+            android:src="@drawable/ugc_icon_type_voice"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/ugc_photo"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="130dp"
+            android:src="@drawable/ugc_icon_type_photo"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/ugc_record"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="195dip"
+            android:src="@drawable/ugc_icon_type_record"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ugc_lbs"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="260dip"
+            android:src="@drawable/ugc_icon_type_lbs"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ugc_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="matrix"
+        android:src="@drawable/ugc_opened_bg"
+        android:visibility="invisible"/><!-- android:src="@drawable/ugc_opened_bg" -->
+
+    <ImageView
+        android:id="@+id/ugc"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ugc_triger_btn_add" />
+
+</RelativeLayout>

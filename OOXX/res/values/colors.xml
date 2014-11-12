@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="translucent_20">#20000000</color>
+    <color name="translucent_00">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#ebebeb</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- A transparent black -->
+    <color name="transparent_black">#aa000000</color>
+    <color name="holo_dark">#ffffffff</color>
+    
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+	<color name="btn_gray_pressed_status">#b5b5b6</color>    
+	<color name="orange">#FFA500</color>
+	<color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <drawable name="black">#000000</drawable>
+    <drawable name="darkgray">#808080</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="blue">#0000FF</drawable>
+    
+    <drawable name="smssdk_dialog_btn_nor">#00000000</drawable>
+    <drawable name="smssdk_dialog_btn_pre">#ff282a2b</drawable>
+    
+	<color name="smssdk_white">#ffffffff</color>
+	<color name="smssdk_gray_press">#fff2f2f2</color>
+	<color name="smssdk_transparent">#00000000</color>
+	<color name="smssdk_lv_tv_color">#ff353535</color>
+	<color name="smssdk_lv_title_color">#ff999999</color>
+	<color name="smssdk_lv_item_selector">#f7fcff</color>
+	<color name="smssdk_lv_item_divider">#ffd9d9da</color>
+	<color name="smssdk_black">#ff000000</color>
+	<color name="smssdk_gray">#ff898989</color>
+
+</resources>

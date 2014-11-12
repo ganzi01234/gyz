@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@drawable/kaixin_list_item_bg">
+
+    <TextView 
+        android:id="@+id/friend_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="20dip"
+        android:textStyle="bold"/>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right">
+        <TextView 
+	        android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:paddingRight="20dip"
+		    android:text="已添加"
+		    android:id="@+id/added_txt"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:visibility="gone"
+		    android:layout_marginRight="10dp"
+		    android:gravity="right"
+		    android:paddingLeft="10dip"/>
+		<Button 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/add_btn"
+		    android:background="@drawable/common_button"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:gravity="center"
+		    android:paddingRight="10dip"
+		    android:layout_marginRight="10dp"
+		    android:text="添加"
+		    android:paddingLeft="10dip"/>
+    </RelativeLayout>
+    
+</LinearLayout>
